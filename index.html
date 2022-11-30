@@ -5,11 +5,25 @@
 	<meta name="viewport" content="width=device-width,  initial-scale=1.0" >
 	<title> Word Beater Game</title>
 	<link rel="stylesheet" href="style.css" >
+
 </head>
 <body>
 	<!--- THIS IS THE HEADER SECTION ----->	
 	<header class="header" ><h3> WordBeater </h3></header>
 		
+	<!--- THIS IS THE GAME LEVEL CONTAINER SECTION ----->	
+	<section class="level-container" >
+		<h3> Choose a Level </h3>
+		
+		<!--- Level options ----->	
+		<select class="levels" >
+			<option value="easy"  class="level-btn easy"> Easy </option>
+			<option value="medium" class="level-btn medium"> Medium </option>
+			<option value="hard"  class="level-btn hard"> Hard </option>		
+			<option value="extreme"  class="level-btn Extreme"> God Speed </option>		
+		</select>	
+	</section>
+	
 	<!--- THIS IS THE START BUTTON ----->	
 	<button class="start-btn" > START </button>
 		
@@ -29,7 +43,7 @@
 
 		<!--- This div contains the time left and score ----->			
 		<div class="status" > 
-			<p class="time-left" > Time Left: <span class="time" > 5 </span></p>
+			<p class="time-left" > Time Left: <span class="time" > </span></p>
 			
 			<p class="your-score" > Your Score: <span class="score"> 0 </span></p>
 		</div>	
@@ -38,16 +52,13 @@
 	
 	<!----- THIS SECTION CONTAINS INSTRUCTIONS FOR PLAYING THE GAME --------->	
 	<section class="instruction" >
-		<h3> Instruction </h3>
+		<h3> Instructions </h3>
 		<p> Type each words in the given amount of seconds to score. 
 			To play again, just type the current word. Your score will reset. <br>
 			<b>CAN YOU BEAT THE WORD?</b>
 			</p>
 	</section>
 
-
-<!----- The JavaScript file --------->	
 <script src="index.js" type="text/javascript"></script>
-
 </body>
 </html>
