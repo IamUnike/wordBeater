@@ -9,10 +9,10 @@ let levels = document.querySelector(".levels")
 		function gameDifficulty(){
 		event.preventDefault()
 		if(levels.value === "easy"){
-			time = 6
+			time = 7
 		}
 		else if(levels.value === "medium"){
-			time = 4
+			time = 5
 		}
 		
 		else if(levels.value === "hard"){
@@ -34,6 +34,7 @@ let wordInput = document.querySelector(".word-input")
 let remark = document.querySelector(".remark")
 let timeDisplay = document.querySelector(".time")
 let scoreDisplay = document.querySelector(".score")
+let instruction = document.querySelector(".instruction")
 
 // This Function initializes the game when the start button is clicked
 	function startGame(){
@@ -47,7 +48,8 @@ let scoreDisplay = document.querySelector(".score")
 		startBtn.classList.add("hide")
 		//Hide the Level Container
 		levelContainer.classList.add("hide")
-	
+		//Hide the instruction
+		instruction.classList.add("hide")
 		//fire the initializing function
 		initial()
 	}
