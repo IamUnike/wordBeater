@@ -31,6 +31,39 @@ p{
 }
 
 
+
+/* LEVEL DIFFICULTY STYLING*/
+.level-container {
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin:20px auto 10px;
+}
+
+select{
+	width:100%;
+	padding:10px;
+	outline:none;
+	border:;
+	font-size:18px;
+	border-radius:4px;
+	margin:10px auto 0;
+	overflow:auto;
+}
+
+select:hover{
+	background-color:transparent;
+	color: white;
+	border:2px inset white;
+}
+
+.level-btn {
+	background-color:blue;
+	color:blue;
+}
+
+
 /* START BUTTON STYLING*/
 .start-btn{
 	outline:0;
@@ -43,7 +76,7 @@ p{
 	border-radius:3px;
 	width:80%;
 	font-family:georgia;
-	margin:20px auto;
+	margin:30px auto;
 }
 
 .start-btn:hover{
@@ -120,6 +153,7 @@ p{
 .instruction h3{
 	margin:0 auto 10px;
 }
+
 
 
 /* Hide Class Styling */
