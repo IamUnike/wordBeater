@@ -9,7 +9,7 @@ let levels = document.querySelector(".levels")
 		function gameDifficulty(){
 		event.preventDefault()
 		if(levels.value === "easy"){
-			time = 7
+			time = 10
 		}
 		else if(levels.value === "medium"){
 			time = 5
