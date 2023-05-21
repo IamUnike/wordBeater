@@ -56,8 +56,6 @@ select{
 	width:100%;
 	padding:10px;
 	outline:none;
-	border:;
-	font-size:16px;
 	border-radius:4px;
 	margin:10px auto 0;
 	overflow:auto;
@@ -125,8 +123,8 @@ select:hover{
 .word-input{
 	border:none;
 	outline:none;
-	width:100%;
-	padding:10px;
+	width:80%;
+	padding:15px;
 	font-size:16px;
 	margin:0 auto 20px;
 }
