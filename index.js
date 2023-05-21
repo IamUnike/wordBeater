@@ -58,8 +58,7 @@ let instruction = document.querySelector(".instruction")
 	
 
 // ARRAY CONTAINING A LIST OF WORDS
-const words = ["Estate", "Freedom", "Enterprise", "School", "Yesterday", "Country", "JavaScript", "Powerful", "Theater", "Center", "Excellence", "Cybersecurity", "Element", "Subwoofer", "System", "Continent", "Home", "Worship", "River", "Space", "Fanbase", "Editor", "Lawyer", "House", "Sport", "Post", "Father", "Mother", "Water", "Caricature", "Animal", "Decentralize", "Gross", "Initiation", "Zenith", "Yatch", "Winner", "Preacher", 
-               "Living", "Redeemed", "Xylophone", "Babylon", "Python", "Programmer", "Arithmetics", "Ditto", "Elegance", "Superb", "Preview", "Formation", "Psychology", "Football", "Education", "Extreme", "Family", "Physiology", "Quintessential", "Catalyst", "Successful", "Brilliant", "Artificial", "Compression", "Delegate", "Perception", "Materialistic", "Singleton", "Complicated", "Greatness", "Development", "Magnitude"]
+const words = ["Estate", "Freedom", "Enterprise", "School", "Yesterday", "Country", "JavaScript", "Powerful", "Theater", "Center", "Excellence", "Cybersecurity", "Element", "Subwoofer", "System", "Continent", "Home", "Worship", "River", "Space", "Fanbase", "Editor", "Lawyer", "House", "Sport", "Post", "Father", "Mother", "Water", "Caricature", "Animal", "Decentralize", "Gross", "Initiation", "Zenith", "Yatch", "Winner", "Preacher", "Living", "Redeemed", "Xylophone", "Babylon", "Python", "Programmer", "Arithmetics", "Ditto", "Elegance", "Superb", "Preview", "Formation", "Psychology", "Football", "Education", "Extreme", "Family", "Physiology", "Quintessential", "Catalyst", "Successful", "Brilliant", "Artificial", "Compression", "Delegate", "Perception", "Materialistic", "Singleton", "Complicated", "Greatness", "Development", "Magnitude"]
 
 
 // FUNCTION TO FIRE WHEN THE PAGE LOADS
@@ -109,7 +108,7 @@ function startMatch(){
 
 //MATCH CURRENT WORD TO WORD INPUT
 function matchWords(){
-	if(wordInput.value === currentWord.innerHTML){
+	if(wordInput.value.toLowerCase().trim() === currentWord.innerHTML.toLowerCase()){
 		remark.innerHTML = "Correct"
 		remark.style.color = "green"
 		return true
