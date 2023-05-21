@@ -55,11 +55,8 @@ let instruction = document.querySelector(".instruction")
 	}
 	startBtn.addEventListener("click", startGame)
 	
-	
-
 // ARRAY CONTAINING A LIST OF WORDS
 const words = ["Estate", "Freedom", "Enterprise", "School", "Yesterday", "Country", "JavaScript", "Powerful", "Theater", "Center", "Excellence", "Cybersecurity", "Element", "Subwoofer", "System", "Continent", "Home", "Worship", "River", "Space", "Fanbase", "Editor", "Lawyer", "House", "Sport", "Post", "Father", "Mother", "Water", "Caricature", "Animal", "Decentralize", "Gross", "Initiation", "Zenith", "Yatch", "Winner", "Preacher", "Living", "Redeemed", "Xylophone", "Babylon", "Python", "Programmer", "Arithmetics", "Ditto", "Elegance", "Superb", "Preview", "Formation", "Psychology", "Football", "Education", "Extreme", "Family", "Physiology", "Quintessential", "Catalyst", "Successful", "Brilliant", "Artificial", "Compression", "Delegate", "Perception", "Materialistic", "Singleton", "Complicated", "Greatness", "Development", "Magnitude"]
-
 
 // FUNCTION TO FIRE WHEN THE PAGE LOADS
 function initial(){
